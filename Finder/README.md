@@ -1,7 +1,6 @@
 GitFinder
 ==============
-This python script identifies websites with publicly accessible ```.git``` repositories. 
-It checks if the ```.git/HEAD``` file contains ```refs/heads```. 
+Thie identifies web sites with publicly accessible Git repositories. It simply checks if the ```.git/HEAD``` file contains ```refs/heads```. 
 
 #Usage
 
@@ -19,5 +18,4 @@ optional arguments:
                         threads
 ```
 
-The input file should contain the targets one per line. 
-The script will output discovered domains in the form of ```[*] Found: DOMAIN``` to stdout. 
+The input file should contain the targets one per line. The script will output discovered URLs to stdout and to the OUTPUTFILE.
